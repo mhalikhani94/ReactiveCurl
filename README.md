@@ -36,7 +36,7 @@ To deploy this project run these commands.
 ```bash
   mkdir build
   cd build
-  cmake -DCURL_USE_OPENSSL=1 -DOPENSSL_ROOT_DIR=C:/msys64/mingw64/ssl ..
+  cmake -DCURL_USE_OPENSSL=1 -DOPENSSL_ROOT_DIR=/usr/local/ssl ..
   make
 ```
 ## Usage/Examples
